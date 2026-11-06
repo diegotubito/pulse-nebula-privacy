@@ -13,7 +13,12 @@
 
 <h1>Política de Privacidad</h1>
 
-<p>Pulse Nebula es una aplicación de operación comercial para organizaciones y sus usuarios autorizados. Según el espacio de trabajo y las capacidades habilitadas, permite gestionar caja, ventas, pagos, gastos, inventario, membresías, pedidos de clientes, suscripciones, roles y registros de auditoría.</p>
+<p class="meta">Última actualización: 6 de noviembre de 2026</p>
+<p>Pulse Nebula es una plataforma de operación comercial para organizaciones, su personal autorizado y los clientes a quienes cada negocio habilite acceso. Según el espacio de trabajo y las capacidades habilitadas, permite gestionar caja, ventas, pagos, gastos, inventario, membresías, pedidos de clientes, suscripciones, roles y registros de auditoría.</p>
+
+<h2>Alcance: Web, apps móviles y equipos del gimnasio</h2>
+<p>Esta política distingue las funciones de Nebula Web, las apps móviles para Android e iOS y las integraciones con equipos físicos del negocio. Las funciones y los datos tratados dependen del negocio, los permisos, la plataforma y la versión disponible. Una función exclusiva de Web o de un lector del gimnasio no implica que la app móvil capture esos mismos datos.</p>
+<p>El reconocimiento facial del gimnasio ocurre en sus lectores y se administra desde Nebula Web, con un conector local cuando corresponde. Es independiente de la autenticación biométrica del teléfono. Ambos circuitos se describen por separado más abajo.</p>
 
 <h2>Datos recopilados</h2>
 
@@ -23,7 +28,7 @@
   <li><strong>Datos de cuenta e identidad:</strong> nombre de usuario, nombre y apellido, correo electrónico, identificador de usuario y configuración de autenticación y seguridad.</li>
   <li><strong>Datos del dispositivo y notificaciones:</strong> un identificador de dispositivo generado por la app, token de notificaciones push, plataforma, versiones del sistema operativo y de la app, idioma, zona horaria y metadatos de dispositivo o sesión.</li>
   <li><strong>Contenido comercial y proporcionado por usuarios:</strong> información del espacio de trabajo y sucursales; nombres, correos electrónicos, teléfonos, direcciones e identificadores fiscales ingresados para partes, clientes, miembros, proveedores o contactos; notas operativas y otro contenido enviado por usuarios.</li>
-  <li><strong>Registros operativos y financieros:</strong> movimientos de caja, ventas, pagos, gastos, actividad de inventario, pedidos, suscripciones, cobros de membresías, referencias de proveedores e historial de auditoría. Pulse Nebula no solicita ni almacena números completos de tarjetas de pago en la app móvil; los datos del pago alojado son gestionados por el proveedor seleccionado.</li>
+  <li><strong>Registros operativos y financieros:</strong> movimientos de caja, ventas, pagos, gastos, actividad de inventario, pedidos, suscripciones, cobros de membresías, importes, referencias y estados de operaciones e historial de auditoría. Estos datos pueden consultarse o gestionarse desde las funciones Web o móviles que el negocio habilite. Pulse Nebula no solicita ni almacena números completos de tarjetas ni códigos de seguridad en la app móvil; los datos de la tarjeta se ingresan en la página de pago del proveedor seleccionado.</li>
   <li><strong>Datos de seguridad y solicitudes:</strong> dirección IP, metadatos de solicitudes, eventos de autenticación y acciones necesarias para prevenir abusos, aplicar controles de acceso y conservar la trazabilidad.</li>
   <li><strong>Acceso supervisado y asistencia, cuando la función está habilitada:</strong> relación de la persona con el negocio, sucursal, fecha y hora, intentos de ingreso y resultados. La sucursal asociada al registro no es ubicación GPS del dispositivo; el registro no garantiza por sí solo la presencia o el paso físico de una persona.</li>
 </ul>
@@ -41,13 +46,28 @@
 
 <p>Usamos proveedores de infraestructura, base de datos, correo electrónico y notificaciones push para operar Pulse Nebula. Cuando un espacio de trabajo habilita un proveedor de pagos o un usuario inicia un pago alojado, los datos necesarios para crear y conciliar esa transacción pueden enviarse a ese proveedor. Estas partes procesan datos bajo sus propios términos o como proveedores del servicio correspondiente. No vendemos datos personales y Pulse Nebula no contiene publicidad ni usa el Advertising ID de Android.</p>
 
-<h2>Permisos del dispositivo</h2>
+<h3>Pagos en Web y enlaces desde las apps móviles</h3>
+<p>Las apps móviles no integran SDK de cobro ni compras mediante Google Play Billing o Apple In-App Purchase, y no venden planes o complementos del software Nebula. Si el negocio habilita pagos de servicios presenciales, como una membresía de gimnasio, la app puede abrir una página externa alojada por su proveedor de pagos. Ese proveedor trata los datos que ingreses allí según su política de privacidad. Nebula procesa la información operativa necesaria para iniciar, consultar y conciliar el pago, como la referencia de la persona o membresía, el importe y el estado; la ausencia de un SDK de cobro no significa que Nebula no trate registros financieros.</p>
 
-<p>La app móvil puede solicitar acceso a la cámara para escanear códigos QR de acceso del espacio o sucursal, autenticación biométrica para confirmar acciones sensibles localmente en el dispositivo y permiso de notificaciones para recibir las notificaciones push habilitadas. Pulse Nebula no recibe ni almacena plantillas biométricas. La experiencia móvil declarada no solicita ubicación del dispositivo, micrófono, contactos, Advertising ID ni acceso amplio al almacenamiento.</p>
+<h2>Apps móviles: permisos y biometría local del teléfono</h2>
+
+<p>La app móvil puede solicitar acceso a la cámara para escanear códigos QR de acceso del espacio o sucursal y permiso de notificaciones para recibir las notificaciones push habilitadas. No utiliza esa cámara para inscribir ni reconocer rostros en los lectores del gimnasio. La experiencia móvil aquí descrita no solicita ubicación del dispositivo, micrófono, contactos, Advertising ID ni acceso amplio al almacenamiento.</p>
+<p>Cuando esté habilitada la confirmación biométrica de un acceso supervisado, la app solicita la autenticación al sistema operativo del teléfono, por ejemplo mediante Face ID o huella digital. Nebula no accede a las imágenes, huellas ni plantillas biométricas que utiliza el sistema operativo y no las recibe en sus servidores. La app utiliza la confirmación local para continuar el flujo de acceso; el resultado operativo de ese acceso puede registrarse en Nebula. Esta autenticación no inscribe a la persona en el sistema facial del gimnasio.</p>
+
+<h2>Nebula Web y lectores faciales del gimnasio</h2>
+
+<p>Esta sección aplica únicamente cuando el gimnasio habilita esa integración. El gimnasio determina la finalidad del control de acceso y administra sus lectores. Debe informar a las personas sobre el tratamiento, contar con la base legal y el consentimiento que correspondan, ofrecer una alternativa sin reconocimiento facial y atender solicitudes sobre los datos bajo su control. Nebula presta las funciones de administración y procesamiento que le corresponden, sin quedar eximido de sus propias obligaciones.</p>
+<ul>
+  <li><strong>En los lectores:</strong> se realizan la captura y comparación facial y se conservan los datos de inscripción necesarios para reconocer a la persona, incluidas las plantillas biométricas y las imágenes que mantenga el equipo según su configuración. No se capturan mediante las apps Android o iOS.</li>
+  <li><strong>En el conector local del gimnasio, cuando se habilita la sincronización:</strong> el conector procesa temporalmente en memoria el dato facial de una persona para transferirlo entre los lectores autorizados de esa instalación. Ese flujo no guarda el contenido biométrico en archivos, colas ni registros del conector y no lo envía a la nube de Nebula. La protección del equipo y de la red local también depende de la instalación y de sus controles de seguridad.</li>
+  <li><strong>En Nebula Web y sus servidores:</strong> se administran identificadores de la persona y de los lectores, sucursal, autorizaciones, estados de inscripción, tareas de sincronización o eliminación, fechas y resultados de acceso y auditoría. Este circuito no envía ni almacena imágenes faciales o plantillas biométricas en la nube de Nebula ni las muestra en el navegador.</li>
+</ul>
+<p>Revocar el acceso en Nebula no demuestra por sí solo que un lector ya haya borrado sus datos locales. La eliminación debe confirmarse en los equipos correspondientes; si un lector está desconectado o no responde, puede quedar pendiente. Para solicitar acceso, corrección o eliminación de estos datos, contactá al gimnasio o escribinos al correo indicado abajo para coordinar la solicitud.</p>
 
 <h2>Seguridad y conservación</h2>
 
-<p>Los datos se transmiten mediante HTTPS. Conservamos los datos de cuenta y operación mientras sean necesarios para prestar el servicio, proteger cuentas, preservar registros del espacio de trabajo y cumplir obligaciones legales, de seguridad y auditoría. El historial financiero y operativo puede conservarse como registro inmutable del espacio de trabajo incluso después de eliminar una cuenta de usuario individual.</p>
+<p>Las comunicaciones con los servidores de Nebula utilizan HTTPS. Las conexiones entre el conector y los lectores pertenecen a la red local del gimnasio y pueden utilizar un protocolo sin HTTPS; requieren una red controlada, aislamiento y las medidas de seguridad de la instalación. No debe interpretarse la protección de la conexión con Nebula como una garantía de cifrado de todos los enlaces físicos del gimnasio.</p>
+<p>Conservamos los datos de cuenta y operación mientras sean necesarios para prestar el servicio, proteger cuentas, preservar registros del espacio de trabajo y cumplir obligaciones legales, de seguridad y auditoría. El historial financiero y operativo puede conservarse como registro inmutable del espacio de trabajo incluso después de eliminar una cuenta de usuario individual. Los datos en los lectores tienen su propio ciclo de conservación y eliminación, que debe gestionar el gimnasio; no quedan borrados automáticamente al eliminar una cuenta Nebula.</p>
 
 <h2>Eliminación de cuenta</h2>
 
@@ -65,7 +85,6 @@ Los usuarios pueden solicitar la eliminación de su cuenta directamente desde Co
 
 <p>Email: <a href="mailto:pulsenebula.tech@gmail.com">pulsenebula.tech@gmail.com</a></p>
 
-<p class="meta">Última actualización: 12 de septiembre de 2026</p>
 <h2>Prestador y contacto legal</h2>
 <p>Pulse Nebula es prestado por David Diego Gomez, persona física en Argentina. Domicilio de contacto y notificaciones: Fallieres 661, Banfield, Argentina. Correo: <a href="mailto:pulsenebula.tech@gmail.com">pulsenebula.tech@gmail.com</a>.</p>
 </main><footer class="site-footer"><span>© 2026 Pulse Nebula</span><a href="../../">Centro de confianza</a></footer>
